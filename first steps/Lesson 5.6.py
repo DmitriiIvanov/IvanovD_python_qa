@@ -5,8 +5,8 @@
  Требуется определить общую стоимость покупки.
 """
 pencil,pen,felt_tip_pen = map(int,input().split())
-pencil_price = pencil*3
-pen_price =
-felt_tip_pen_price =
+pencil_price = (pencil // pencil)*3
+pen_price = pencil_price+2
+felt_tip_pen_price = pen_price+7
 
-print(pencil+pen)
+print(pencil*pencil_price + pen*pen_price + felt_tip_pen*felt_tip_pen_price)
